@@ -1,0 +1,23 @@
+
+body{
+    background: radial-gradient(at top,rgb(157, 15, 136),rgb(84, 7, 7));
+}
+.logo{ z-index: 0;}
+.navbar{ z-index: 1;    position: static; font-family: ""; font-size: 18px}
+.bg-light{
+    background: linear-gradient( #e02fb1,#520004);
+    border-radius: 25px;
+}
+.nav-item{    padding: 0px 20px;}
+.nav-item:first-child{
+    border-right:#520004 solid 1px;    
+}
+.imagen{
+    animation: imagen_animacion ease-in-out infinite 4s;
+}
+@keyframes imagen_animacion{
+    0%{ transform: translateY(-10%)}
+    50%{ transform: translateY(0%)}
+    100%{ transform: translateY(-10%)}
+}
+
